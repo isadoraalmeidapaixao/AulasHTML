@@ -1,0 +1,58 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgb(236, 233, 233);
+            padding: 20px 50px 60px 10px;
+        }
+
+        .cabecalho {} /* utiliando class*/
+
+        #cabecalho {} /* utiliando id*/
+
+        .titulo-principal {
+          color: brown;
+          margin-bottom: 20px;
+        }
+
+        .texto-descricao {
+            font-family:'Segoe UI';
+            color: rgb(37, 35, 35);
+            margin-top: 20px;
+        }
+
+        .obs {
+    
+        }
+
+        .esconder {
+            display: none;
+        }
+
+        .foto-perfil {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border-color: rgb(0, 0, 0);
+            border: 3px solid white;
+        }
+
+        a:hover {
+            color: brown;
+            font-family:'Segoe UI';
+        }
+
+        h2 {
+            color: brown;
+            font-family: 'Segoe UI';
+            margin-bottom: 20px;
+            margin-top: 20px;
+         }
+
+         li {
+            font-family: 'Segoe UI';
+            color: rgb(97, 79, 79);
+         }
