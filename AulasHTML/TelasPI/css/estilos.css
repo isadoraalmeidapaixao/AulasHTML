@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 24px;
+}
+
+.card {
+    background: #121212;
+    max-width: 400px;
+    margin: auto;
+    padding: 60px;
+    border-radius: 32px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.campos label {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.campos input {
+    background: #2A2A2A;
+    border: none;
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.campos input::placeholder {
+    color: #949393;
+}
+
+.botaoEntrar {
+    background: #3A8DFF;
+    color: white;
+    height: 55px;
+    border-radius: 28px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.botaoCadastrar {
+    background: transparent;
+    border: 1.5px solid #727272;
+    color: white;
+    height: 55px;
+    border-radius: 28px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
