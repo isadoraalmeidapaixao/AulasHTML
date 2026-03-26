@@ -15,8 +15,8 @@ body {
     padding: 10px;
 }
 
-.header h1 {
-    font-size: 22px;
+.header img {
+    width: 120px;
 }
 
 .sub-header {
@@ -65,30 +65,92 @@ main p {
     width: 400px;
 }
 
-section {
+.hero {
     background-color: #ffffff;
+    align-items: center;
     text-align: center;
-    height: 300px;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center
+    gap: 10px;
 }
+
 section h1 {
     font-size: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
+    text-align: center;
+    color: #000000;
 }
 
 .card {
     background-color: white;
     width: 300px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
-    text-align: center; 
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-
 }
 .card h1 {
     font-size: 20px;
+}
+
+.card-sobremim {
+    background-color: rgb(204, 203, 203);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-sobremim p {
+    color: #000000;
+    font-family: Arial;
+    padding: 0px 20px;
+}
+
+section img {
+    width: 60px;
+}
+
+.img-perfil {
+    width: 60px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #0A1931;
+    color: #ffffff;
+    height: 200px;
+    text-align: center;
+}
+
+footer h1 {
+    padding: 20px;
+}
+
+.footer-informacoes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+footer img {
+    width: 20px;
+    background-color: #ffffff;
+}
+.rodape {
+    font-size: 10px;
+    padding-top: 15px;
+    color: rgb(156, 161, 165);
 }
