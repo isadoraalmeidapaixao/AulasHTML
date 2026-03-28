@@ -37,13 +37,11 @@ header img {
     cursor: pointer;
 }
 
-
 .sub-header {
     display: flex;
     justify-content: flex-end;
     padding: 10px 15px 15px;
 }
-
 
 button {
     background-color: #E87030;
@@ -57,7 +55,6 @@ button {
 .inscrever-btn {
     margin-left: auto;
 }
-
 
 .transparent {
     background-color: transparent;
@@ -128,7 +125,6 @@ button {
     font-size: 18px;
     margin: 10px 0;
 }
-
 
 .card-sobremim {
     background-color: #ccc;
